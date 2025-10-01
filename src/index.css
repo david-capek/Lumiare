@@ -1,20 +1,121 @@
-body{
+body {
   height: 100%;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background-color: #11005D;
+  box-sizing: border-box;
 }
 
-.container-footer{
+.container-footer {
   display: flex;
-  justify-content: end;
   align-items: center;
   height: 18.92vh;
   width: 100%;
   background-color: #11005D;
-  margin: 0px;
+  margin: 0;
   position: fixed;
   bottom: 0;
   left: 0;
   box-shadow: 0px -4px 20px #5718FF;
+  flex-direction: row;
+  padding-left: 2vw;
 }
+
+.lumiare-logo {
+  width: 134px;
+  height: 34.14px;
+  position: relative;
+  top: -30px;
+  left: -8px;
+  scale: 0.9;
+}
+
+.lumiare-base {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ia-logo {
+  width: 25.63px;
+  height: 27.08px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(13%, -40%);
+}
+
+.createdby{
+  font-family: "Figtree", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 164%;
+  letter-spacing: 2%;
+  vertical-align: middle;
+  color: #FFFFFF;;
+  top: -5px;
+  position: relative;
+}
+
+.maiven-image{
+  width: 68.92px;
+  height: 30.52px;
+  top: -40px;
+  left: 45px;
+  position: relative;
+  margin-left: 10px;
+}
+
+.copyright{
+  position: relative;
+  top: 45px;
+  left: -135px;
+  opacity: 0.8;
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 12px;
+  line-height: 164%;
+  letter-spacing: 2%;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+
+.info{
+  position: relative;
+  top: -30px;
+  left: 700px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 16px;
+  line-height: 164%;
+  letter-spacing: 2%;
+  vertical-align: middle;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.terms{
+  position: relative;
+  opacity: 0.8;
+  top: 45px;
+  left: 560px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 12px;
+  line-height: 164%;
+  letter-spacing: 2%;
+  vertical-align: middle;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
