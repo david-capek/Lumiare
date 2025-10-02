@@ -12,7 +12,7 @@ function Footer() {
         <img src={Maiven} alt="" className='maiven-image'/>
       </div>
       <p className='copyright'>© Lumiare™ 2025. All Rights Reserved. </p>
-      <div className='info'>
+      <div className='info-footer'>
         <p>Home</p>
         <p>Solutions</p>
         <p>Pricing</p>
