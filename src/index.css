@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   overflow-y: hidden;
+  display: flex;
 }
 
 .container-footer {
@@ -18,7 +19,7 @@ body {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  box-shadow: 0px -4px 20px #5718FF;
+  box-shadow: 0px -14px 152.6px 0px #FFFFFF40;
   flex-direction: row;
 }
 
@@ -173,3 +174,123 @@ body {
   right: 15px;
   position: relative;
 }
+
+.container-waitlist{
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.rocket-image{
+width: 84px;
+height: 180px;
+opacity: 1;
+top: 225px;
+left: 80px;
+scale: 1.8;
+position: relative;
+z-index: 5;
+}
+
+/* .ellipse{
+  width: 1742px;       
+  height: 1326px;
+  position: absolute;
+  background-color: #3704C1;
+  border-top-left-radius: 800px 500px;
+  border-top-right-radius: 800px 500px;
+  filter: blur(67.2px);
+  display: flex;
+  align-items: center;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ellipse .e1{
+    width: 1590px;       
+  height: 1210px;
+  position: absolute;
+  background-color: #11005D;
+  border-top-left-radius: 750px 500px;
+  border-top-right-radius: 750px 500px;
+  filter: blur(67.2px);
+  display: flex;
+  align-items: center;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+} */
+
+.ellipse {
+  position: absolute;
+  top: 950px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1000px; 
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: visible;
+  bottom: 0;
+}
+
+
+
+.ellipse > div {
+  position: absolute;
+  bottom: 0; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+.e1 {
+  width: 2000px;
+  height: 1440px; 
+  background-color: #11005D;
+  z-index: 4;
+  border-top-left-radius: 1000px 650px;
+  border-top-right-radius: 1000px 650px;
+  top: -600px;
+  position: relative;
+  filter:blur(67.2px)
+}
+
+.e2 {
+  width: 2000px;
+  height: 1440px;
+  background-color: #3704C1;
+  z-index: 3;
+  border-top-left-radius: 1000px 650px;
+  border-top-right-radius: 1000px 650px;
+  position: relative;
+  top: -650px;
+filter: blur(67.2px);
+}
+
+.e3 {
+  width: 2000px;
+  height: 1440px;
+  background-color: #5718FF;
+  z-index: 2;
+  border-top-left-radius: 1000px 650px;
+  border-top-right-radius: 1000px 650px;
+  position: relative;
+  top: -750px;
+  filter: blur(36.3px);
+}
+
+.e4 {
+  width: 1892px;
+  height: 1440px;
+  background-color: #F1F1FF;
+  z-index: 1;
+  border-top-left-radius: 1300px 650px;
+  border-top-right-radius: 1300px 650px;
+  filter: blur(70.9px);
+}
+
