@@ -327,3 +327,67 @@ filter: blur(36px);
   align-content: center;
   color: #F5F5F8;
 }
+
+.container-login{
+  display: flex;
+  align-items: center;
+  width: 282px;
+  height: 265.2px;
+  position: absolute;
+  background-color: #FFFFFF;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  border-radius: 24px;
+  flex-direction: column;
+} 
+
+.quote2{
+  position: relative;
+  top: 3%;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 148%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #3704C1;
+}
+
+.input{
+  position: relative;
+  height: 15px;
+  width: 234px;
+  border-radius: 8px;
+  border-width: 0.4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  gap: 10px;
+  background-color: #FEFEFE;
+  border-color: #3306AC;
+  top: 5%;
+}
+
+.btn-login{
+  width: 260px;
+  height: 35px;
+  position: relative;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 28px;
+  padding-left: 28px;
+  gap: 10px;
+  background-color: #3704C1; 
+  top: 20%;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: -1.9%;
+  color: #FEFEFE;
+  text-align: center;
+}
