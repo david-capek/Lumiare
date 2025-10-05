@@ -1,6 +1,7 @@
 import lumiarelogo from './assets/lumiare.svg'
 import IA from './assets/IA.svg'
 import Maiven from './assets/Maiven.png'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -13,11 +14,11 @@ function Footer() {
       </div>
       <p className='copyright'>© Lumiare™ 2025. All Rights Reserved. </p>
       <div className='info-footer'>
-        <p>Home</p>
-        <p>Solutions</p>
-        <p>Pricing</p>
-        <p>About us</p>
-        <p>Contact</p>
+        <Link to="/">Home</Link>
+        <Link to="/solutions">Solutions</Link>
+        <Link to="/pricing">Pricing</Link>
+        <Link to="/about">About us</Link>
+        <Link to="/contact">Contact</Link>
       </div>
       <div className='terms'>
         <p>Privacy policy</p>
