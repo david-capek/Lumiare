@@ -3,7 +3,7 @@ import IA from './assets/IA.svg'
 import Maiven from './assets/Maiven.png'
 import { Link } from 'react-router-dom'
 
-function Footer() {
+function Footer() {  // Ukloni sve parametre ako ih ima
   return (
     <footer className="container-footer">
       <div className="lumiare-logo">

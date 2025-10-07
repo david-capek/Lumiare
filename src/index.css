@@ -1,5 +1,5 @@
 body {
-  height: 100%;
+  height: 100vh;
   margin: 0;
   padding: 0;
   background-color: #11005D;
@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   height: 130px;
-  width: 100%;
+  width: 100vw;
   background-color: #11005D;
   margin: 0;
   position: absolute;
@@ -407,4 +407,119 @@ filter: blur(36px);
 
 .info-footer a:active {
   color: white;               
+}
+
+.solutions-page{
+  min-height: 2812px;
+  width: 1440px;
+  overflow: visible;
+}
+
+.home-page-active .container-footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.solutions-page-active .container-footer {
+  position: relative;
+  bottom: auto;
+}
+
+.container-header2-main{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 104px;
+  justify-items: center;
+  align-items: center;
+}
+
+.lumiare-img{
+  width: 74px;
+  height: 19px;
+  position: relative;
+  top: 0%;
+}
+
+.container-header2{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 3%;
+  align-items: center;
+  justify-content: center;
+  color: #F5F5F8;
+}
+
+.ia-logo2{
+  position: absolute;
+  left: 51%;
+  top: 22%;
+  height: 14.2px;
+  width: 15px;
+  color: #DDDDE8;
+}
+
+.info-header2{
+  font-family: "Inter", sans-serif;
+  position: relative;
+  top: 0%;
+  left: 50%;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 128%;
+  letter-spacing: 0%;
+  color: #F5F5F8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 39px;
+}
+
+.signin2 {
+  border: 1px solid #FEFEFE;
+  border-radius: 8px;
+  padding: 6px 28px;   
+  background-color: #11005D;
+  color: #FEFEFE;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -1.9%;
+  font-family: "Inter", sans-serif;
+  margin-right: -20px;
+  margin-left: 10px;
+}
+
+.demo{
+    border: 1px solid #FEFEFE;
+  border-radius: 8px;
+  padding: 6px 28px;   
+  background-color: #FEFEFE;
+  color: #11005D;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -1.9%;
+  font-family: "Inter", sans-serif;
+  gap: 10px;
+}
+
+.c1{
+  height: 426px;
+  width: 100%;
+  position: absolute;
+  background-color: #3306AC;
+  top: 104px;
+}
+
+.girl-img{
+width: 282px;
+height: 396px;
+top: 7.1%;
+left: 64%;
+position: relative;
 }
