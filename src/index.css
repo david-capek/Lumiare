@@ -522,4 +522,96 @@ height: 396px;
 top: 7.1%;
 left: 64%;
 position: relative;
+z-index: 2;
+}
+
+.quote-container{
+  position: relative;
+/*   background-color: #5718FF; */
+  height: 288px;
+  width: 665px;
+  gap: 38px;
+  display: flex;
+  top: -75%;
+  left: 5%;
+}
+
+.quote3{
+  position: relative;
+  top: -15%;
+  left: 0%;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 38px;
+  line-height: 128%;
+  letter-spacing: 0%;
+  color: #F5F5F8;
+  white-space: nowrap;
+}
+
+.text{
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 148%;
+  letter-spacing: 0%;
+  color: #F5F5F8;
+  font-family: "Inter", sans-serif;
+}
+
+.btn-start{
+  background-color: #ECEDF3;
+  border-radius: 45px;
+  padding: 11px 22px;
+  gap: 10px;
+  position: relative;
+  top: 80%;
+  left: -47.3%;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 128%;
+  letter-spacing: 0%;
+  color: #11005D;
+  height: 20px;
+  width: 100px;
+}
+
+.btn-request{
+  background-color: #11005D;
+  border-radius: 45px;
+  padding: 11px 22px;
+  gap: 10px;
+  position: relative;
+  top: 80%;
+  left: -47.3%;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 128%;
+  letter-spacing: 0%;
+  color: #ECEDF3;
+  height: 20px;
+  width: 124px;
+  border: 1px solid #F5F5F8;
+}
+
+.message{
+  width: 613px;
+  height: 212px;
+  position: absolute;
+  top: 26%;
+  left: 57%;
+  z-index: 0;
+}
+
+.sow{
+width: 192px;
+height: 99.9px;
+top: -100%;
+left: 75.3%;
+position: relative;
+z-index: 3;
 }
