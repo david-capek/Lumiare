@@ -3,10 +3,10 @@ import Header from './Header';
 import Footer from './Footer';
 import Waitlist from './Waitlist';
 import Login from './Login';
+import styles from './index.module.css'
 
 function HomePage() {
     useLayoutEffect(() => {
-        // RESETIRAJ SCROLL NA VRH!
         window.scrollTo(0, 0);
         
         document.body.style.overflowY = "hidden";

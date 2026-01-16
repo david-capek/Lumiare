@@ -4,6 +4,7 @@ import Solutions from './pages/Solutions'
 import Pricing from './pages/Pricing'
 import Aboutus from './pages/Aboutus'
 import Contact from './pages/Contact'
+import styles from './index.module.css'
 
 function App() {
   return (

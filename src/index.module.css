@@ -9,7 +9,7 @@ body {
   display: flex;
 }
 
-.container-footer {
+.containerFooter {
   display: flex;
   align-items: center;
   height: 130px;
@@ -23,7 +23,7 @@ body {
   flex-direction: row;
 }
 
-.container-header{
+.containerHeader{
   display: flex;
   flex-direction: row;
   position: absolute;
@@ -33,7 +33,7 @@ body {
   height: 80px;
 }
 
-.lumiare-logo {
+.lumiareLogo {
   width: 134px;
   height: 34.14px;
   position: relative;
@@ -42,12 +42,12 @@ body {
   scale: 0.9;
 }
 
-.lumiare-base {
+.lumiareBase {
   height: auto;
   display: block;
 }
 
-.ia-logo {
+.iaLogo {
   width: 25.63px;
   height: 27.08px;
   position: absolute;
@@ -56,7 +56,7 @@ body {
   transform: translate(13%, -40%);
 }
 
-.createdby{
+.createdBy{
   font-family: "Figtree", sans-serif;
   font-weight: 400;
   font-style: Regular;
@@ -69,7 +69,7 @@ body {
   position: relative;
 }
 
-.maiven-image{
+.maivenImage{
   width: 68.92px;
   height: 30.52px;
   top: -40px;
@@ -94,7 +94,7 @@ body {
   white-space: nowrap;
 }
 
-.info-footer{
+.infoFooter{
   position: relative;
   top: -30px;
   left: 740px;
@@ -131,7 +131,7 @@ body {
   gap: 30px;
 }
 
-.lumiare-header{
+.lumiareHeader{
   width: 77px;
   height: 32px;
   position: relative;
@@ -139,7 +139,7 @@ body {
   left: 20px;
 }
 
-.ia-header{
+.iaHeader{
   width: 14.2px;
   height: 15px;
   position: relative;
@@ -147,7 +147,7 @@ body {
   left: -16.5px;
 }
 
-.info-header{
+.infoHeader{
   font-family: "Inter", sans-serif;
   position: relative;
   top: 0px;
@@ -165,7 +165,7 @@ body {
   padding: 10px;
 }
 
-.info-header .signin{
+.infoHeader .signin{
   background-color: #F5F5F8;
   color: #11005D;
   border-radius: 45px;
@@ -175,13 +175,13 @@ body {
   position: relative;
 }
 
-.container-waitlist{
+.containerWaitlist{
   display: flex;
   align-items: center;
   flex: 1;
 }
 
-.rocket-image{
+.rocketImage{
 width: 84px;
 height: 180px;
 opacity: 1;
@@ -328,7 +328,7 @@ filter: blur(36px);
   color: #F5F5F8;
 }
 
-.container-login{
+.containerLogin{
   display: flex;
   align-items: center;
   width: 282px;
@@ -371,7 +371,7 @@ filter: blur(36px);
   top: 5%;
 }
 
-.btn-login{
+.btnLogin{
   width: 260px;
   height: 35px;
   position: relative;
@@ -392,40 +392,40 @@ filter: blur(36px);
   text-align: center;
 }
 
-.info-footer a {
+.infoFooter a {
   color: white;       
   text-decoration: none;    
 }
 
-.info-footer a:visited {
+.infoFooter a:visited {
   color: white;           
 }
 
-.info-footer a:hover {
+.infoFooter a:hover {
   text-decoration: underline; 
 }
 
-.info-footer a:active {
+.infoFooter a:active {
   color: white;               
 }
 
-.solutions-page{
+.solutionsPage{
   min-height: 2812px;
   width: 1440px;
   overflow: visible;
 }
 
-.home-page-active .container-footer {
+.homePageActive .containerFooter {
   position: absolute;
   bottom: 0;
 }
 
-.solutions-page-active .container-footer {
+.solutionsPageActive .containerFooter {
   position: relative;
   bottom: auto;
 }
 
-.container-header2-main{
+.containerHeader2Main{
   display: flex;
   flex-direction: row;
   position: absolute;
@@ -437,14 +437,14 @@ filter: blur(36px);
   align-items: center;
 }
 
-.lumiare-img{
+.lumiareImg{
   width: 74px;
   height: 19px;
   position: relative;
   top: 0%;
 }
 
-.container-header2{
+.containerHeader2{
   display: flex;
   flex-direction: row;
   position: relative;
@@ -454,7 +454,7 @@ filter: blur(36px);
   color: #F5F5F8;
 }
 
-.ia-logo2{
+.iaLogo2{
   position: absolute;
   left: 51%;
   top: 22%;
@@ -463,7 +463,7 @@ filter: blur(36px);
   color: #DDDDE8;
 }
 
-.info-header2{
+.infoHeader2{
   font-family: "Inter", sans-serif;
   position: relative;
   top: 0%;
@@ -516,7 +516,7 @@ filter: blur(36px);
   top: 104px;
 }
 
-.girl-img{
+.girlImg{
 width: 282px;
 height: 396px;
 top: 7.1%;
@@ -525,7 +525,7 @@ position: relative;
 z-index: 2;
 }
 
-.quote-container{
+.quoteContainer{
   position: relative;
 /*   background-color: #5718FF; */
   height: 288px;
@@ -561,7 +561,7 @@ z-index: 2;
   font-family: "Inter", sans-serif;
 }
 
-.btn-start{
+.btnStart{
   background-color: #ECEDF3;
   border-radius: 45px;
   padding: 11px 22px;
@@ -579,7 +579,7 @@ z-index: 2;
   width: 100px;
 }
 
-.btn-request{
+.btnRequest{
   background-color: #11005D;
   border-radius: 45px;
   padding: 11px 22px;
