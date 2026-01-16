@@ -1,6 +1,7 @@
 import lumiarelogo from './assets/lumiare.svg'
 import IA from './assets/IA.svg'
 import styles from './index.module.css'
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -11,9 +12,9 @@ function Header() {
             </div>
 
             <div className={styles.infoHeader}>
-                <p>Solutions</p>
-                <p>Pricing</p>
-                <p>About us</p>
+                <Link to="/solutions" className={styles.sol}>Solutions</Link>
+                <Link to="/pricing" className={styles.pri}>Pricing</Link>
+                <Link to="/about" className={styles.abo}>About us</Link>
                 <p className={styles.signin}>Sign in</p>
             </div>
         </header>

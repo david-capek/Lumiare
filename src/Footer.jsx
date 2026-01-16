@@ -9,22 +9,14 @@ function Footer() {
   return (
     <footer className={styles.containerFooter}>
       <div className={styles.lumiareLogo}>
-        <img
-          src={lumiarelogo}
-          alt="Lumiare logo"
-          className={styles.lumiareBase}
-        />
-        <img
-          src={IA}
-          alt="IA"
-          className={styles.iaLogo}
-        />
+        <a href="/" className={styles.hover}>
+        <img src={lumiarelogo} alt="Lumiare logo" className={styles.lumiareBase}/>
+        <img src={IA} alt="IA" className={styles.iaLogo}/>
+        </a>
         <p className={styles.createdBy}>Created by</p>
-        <img
-          src={Maiven}
-          alt=""
-          className={styles.maivenImage}
-        />
+        <a href="https://www.maiven.io/">
+        <img src={Maiven} alt="" className={styles.maivenImage}/>
+        </a>
       </div>
 
       <p className={styles.copyright}>
@@ -32,11 +24,11 @@ function Footer() {
       </p>
 
       <div className={styles.infoFooter}>
-        <Link to="/">Home</Link>
-        <Link to="/solutions">Solutions</Link>
-        <Link to="/pricing">Pricing</Link>
-        <Link to="/about">About us</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/" className={styles.home}>Home</Link>
+        <Link to="/solutions" className={styles.sol}>Solutions</Link>
+        <Link to="/pricing" className={styles.pri}>Pricing</Link>
+        <Link to="/about" className={styles.abo}>About us</Link>
+        <Link to="/contact" className={styles.con}>Contact</Link>
       </div>
 
       <div className={styles.terms}>

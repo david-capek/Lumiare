@@ -78,6 +78,12 @@ body {
   margin-left: 10px;
 }
 
+.maivenImage:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
 .copyright{
   position: relative;
   top: 45px;
@@ -131,12 +137,24 @@ body {
   gap: 30px;
 }
 
+.terms:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
 .lumiareHeader{
   width: 77px;
   height: 32px;
   position: relative;
   top: 23px;
   left: 20px;
+}
+
+.lumiareLogoHeader:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition-duration: 0.2s;
 }
 
 .iaHeader{
@@ -173,6 +191,12 @@ body {
   flex-flow: horizontal;
   right: 15px;
   position: relative;
+}
+
+.signin:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition-duration: 0.2s;
 }
 
 .containerWaitlist{
@@ -614,4 +638,61 @@ top: -100%;
 left: 75.3%;
 position: relative;
 z-index: 3;
+}
+
+.hover:hover{
+opacity: 0.7;
+cursor: pointer;
+transition-duration: 0.2s;
+}
+
+.home:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.sol:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.sol{
+  color: #F5F5F8;
+  text-decoration: none;
+}
+
+.pri:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.pri{
+  color: #F5F5F8;
+  text-decoration: none;
+}
+
+
+.abo:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.abo{
+  color: #F5F5F8;
+  text-decoration: none;
+}
+
+.con:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.con{
+  color: #F5F5F8;
+  text-decoration: none;
 }
