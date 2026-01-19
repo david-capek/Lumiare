@@ -15,7 +15,7 @@ function Header() {
                 <Link to="/solutions" className={styles.sol}>Solutions</Link>
                 <Link to="/pricing" className={styles.pri}>Pricing</Link>
                 <Link to="/about" className={styles.abo}>About us</Link>
-                <p className={styles.signin}>Sign in</p>
+                <Link to="/homepage" className={styles.signin}>Sign in</Link>
             </div>
         </header>
     )

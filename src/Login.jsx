@@ -16,7 +16,6 @@ function Login() {
             <input type="text" className={styles.input} placeholder="E-mail Address" style={{ top: "13%" }} />
 
             <input type="button" className={styles.btnLogin} value="Join the waitlist" />
-            <p>Join the waitlist</p>
         </div>
     )
 }

@@ -191,6 +191,7 @@ body {
   flex-flow: horizontal;
   right: 15px;
   position: relative;
+  text-decoration: none;
 }
 
 .signin:hover{
@@ -352,6 +353,21 @@ filter: blur(36px);
   color: #F5F5F8;
 }
 
+.quote4{
+    position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%);
+  white-space: nowrap;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 148%;
+  letter-spacing: 0%;
+  align-content: center;
+  color: #F5F5F8;
+}
+
 .containerLogin{
   display: flex;
   align-items: center;
@@ -414,6 +430,12 @@ filter: blur(36px);
   letter-spacing: -1.9%;
   color: #FEFEFE;
   text-align: center;
+}
+
+.btnLogin:hover{
+  opacity: 0.9;
+  cursor: pointer;
+  transition-duration: 0.2s;
 }
 
 .infoFooter a {
@@ -695,4 +717,14 @@ transition-duration: 0.2s;
 .con{
   color: #F5F5F8;
   text-decoration: none;
+}
+
+
+.videoLanding{
+  border-radius: 10px;
+  z-index: 1;
+  position: absolute;
+  top: 60%;
+  left: 31%;
+  scale: 1.5;
 }

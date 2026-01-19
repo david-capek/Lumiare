@@ -1,0 +1,31 @@
+import { useLayoutEffect } from 'react';
+import Header from './Header';
+import Footer from './Footer';
+import Waitlist from './Waitlist';
+import Waitlist2 from './Waitlist2';
+import styles from './index.module.css'
+
+function LandingPage() {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+        
+        document.body.style.overflowY = "hidden";
+        document.body.style.height = "100vh";
+        document.body.classList.remove('solutions-page-active');
+        document.body.classList.add('home-page-active');
+
+        return () => {
+            document.body.classList.remove('home-page-active');
+        };
+    }, []);
+
+    return (
+        <>
+            <Header />
+            <Waitlist2 />
+            <Footer />
+        </>
+    );
+}
+
+export default LandingPage;
