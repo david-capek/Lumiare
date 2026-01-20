@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Waitlist from './Waitlist';
 import Login from './Login';
 import styles from './index.module.css'
+import FooterShort from './FooterShort';
 
 function HomePage() {
     useLayoutEffect(() => {
@@ -24,7 +25,7 @@ function HomePage() {
             <Header />
             <Waitlist />
             <Login />
-            <Footer />
+            <FooterShort />
         </>
     );
 }

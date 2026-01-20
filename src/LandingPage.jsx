@@ -9,8 +9,8 @@ function LandingPage() {
     useLayoutEffect(() => {
         window.scrollTo(0, 0);
         
-        document.body.style.overflowY = "hidden";
-        document.body.style.height = "100vh";
+        document.body.style.overflowY = "auto";
+        document.body.style.height = "auto";
         document.body.classList.remove('solutions-page-active');
         document.body.classList.add('home-page-active');
 
@@ -21,9 +21,11 @@ function LandingPage() {
 
     return (
         <>
+        <div className={styles.homeScrollContainer}>
             <Header />
             <Waitlist2 />
             <Footer />
+        </div>
         </>
     );
 }
