@@ -2,6 +2,7 @@ import Rocket from './assets/rocket.svg';
 import Star1 from './assets/star1.svg';
 import Star2 from './assets/star2.svg';
 import styles from './index.module.css';
+import { Link } from "react-router-dom";
 
 function Waitlist2() {
     return (
@@ -29,7 +30,8 @@ function Waitlist2() {
             </p>
             <img src={Star1} alt="" style={{ position: "absolute", left: "7%", top: "68%" }} />
             <img src={Star2} alt="" style={{ position: "absolute", left: "80%", top: "45%" }} />
-
+           <Link to="/homepage" className={styles.startFree} style={{ fontWeight: 600 }}>Start for free</Link>
+           <Link to="/homepage" className={styles.demo2} style={{ fontWeight: 600 }}>Request a demo</Link>
            <iframe
            className={styles.videoLanding}
            width="560"
