@@ -42,7 +42,15 @@ function Waitlist2() {
            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
            allowFullScreen>
            </iframe>
-
+        <div className={styles.shadow}></div>
+        <div className={styles.discover}>
+            <div className={styles.discover2}>
+                <p className={styles.theproblem}>the problem</p>
+                <p className={styles.discoverybox}>The Discovery Black Box</p>
+                <p className={styles.desc}>You know the feeling. The initial excitement of a new project fades into a series of uncaptured requirements, scattered notes, and countless fragmented conversations. <span style={{fontWeight:600 }}>The result? Project delays, scope creep, and misaligned outcomes.</span> Your final Statement of Work becomes a best-guess document, not a collaborative blueprint, putting your project—and your client relationship—at risk.</p>
+            </div>
+            <div className={styles.trapez}></div>
+        </div>
         </div>
     );
 }

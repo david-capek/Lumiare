@@ -809,3 +809,84 @@ transition-duration: 0.2s;
   padding: 11px 44px;
   font-family: "Inter", sans-serif;
 }
+
+.demo2:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.shadow{
+    box-shadow: 0px -8px 60px 50px #FFFFFF40;
+    height: 30px;
+    width: 830px;
+    position: absolute;
+    top: 130%;
+    left: 22%;
+    border-radius: 20px;
+}
+
+.discover{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: 136.7%;
+  background-color: #11005D;
+  z-index: 0;
+}
+
+.discover2{
+  width: 80%;
+  height: 70%;
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  align-items: center;
+  justify-content: center;
+  background-color: #F1F1FF;
+  border-radius: 30px;
+}
+
+.theproblem{
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  font-family: IBM plexmono, monospace;
+  font-weight: 400;
+  font-size: 16px;
+  color: #312E38;
+}
+
+.discoverybox{
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  color: #11005D;
+}
+
+.desc{
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  font-family: IBM plexmono, monospace;
+  font-weight: 400;
+  font-size: 16px;
+  width: 45%;
+  line-height: 198%;
+  letter-spacing: 2%;
+  color: #312E38;
+}
+
+.trapez {
+  width: 90%;
+  height: 120px;
+  background: rgba(255,255,255,0.35);
+  filter: drop-shadow(0 0 10px rgba(255,255,255,0.5));
+  clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100%);
+  position: absolute;
+  top: 95%;
+  left: 5%;
+}
