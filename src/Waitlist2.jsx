@@ -2,6 +2,8 @@ import Rocket from './assets/rocket.svg';
 import Star1 from './assets/star1.svg';
 import Star2 from './assets/star2.svg';
 import styles from './index.module.css';
+import Frame17 from './assets/Frame17.svg';
+import Group42 from './assets/Group42.svg';
 import { Link } from "react-router-dom";
 
 function Waitlist2() {
@@ -50,6 +52,23 @@ function Waitlist2() {
                 <p className={styles.desc}>You know the feeling. The initial excitement of a new project fades into a series of uncaptured requirements, scattered notes, and countless fragmented conversations. <span style={{fontWeight:600 }}>The result? Project delays, scope creep, and misaligned outcomes.</span> Your final Statement of Work becomes a best-guess document, not a collaborative blueprint, putting your project—and your client relationship—at risk.</p>
             </div>
             <div className={styles.trapez}></div>
+        </div>
+        <div className={styles.cont}>
+            <p className={styles.c2}>Lumiare</p>
+            <p className={styles.c3}>A New Way to Work</p>
+            <Link to="/homepage" className={styles.startFree} style={{ fontWeight: 600, top: '19%'}}>Start for free</Link>
+           <Link to="/homepage" className={styles.demo2} style={{ fontWeight: 600, top: '19%'}}>Request a demo</Link>
+           <div className={styles.c4}></div>
+           <img src={Frame17} alt=""  style={{top: '30%', left: '10%', position: 'absolute'}}/>
+           <p className={styles.c5}>The traditional project discovery process sometimes takes energy and direction on its own, pulling people in many directions. Lumiare is your Digital Consultant, helping you and your client define what is needed and what will be delivered. We've replaced the chaotic, manual process with an intelligent, end-to-end workflow that ensures every detail is captured and every stakeholder is aligned.</p>
+           <p className={styles.c6}>Lumiare acts as a single, structured repository for all project requirements, allowing your team to move from initial discovery to a precise Statement of Work (agreement with your Client) with speed, confidence and precision.</p>
+           <img src={Group42} alt="" style={{top: '60%', left: '50%', position: 'absolute'}}/>
+           <div className={styles.d1}>
+            <p className={styles.c7}>Drastically Reduce Time from Initial Discovery to the final SoW</p>
+            <p className={styles.c8}>Cut the time from initial discovery to a finalized Statement of Work from weeks to days. That means more hours left for value added work for you and your client, reducing time to a project kick-off.</p>
+           </div>
+           <div className={styles.d2}></div>
+           <div className={styles.d3}></div>
         </div>
         </div>
     );

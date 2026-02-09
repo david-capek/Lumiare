@@ -881,12 +881,118 @@ transition-duration: 0.2s;
 }
 
 .trapez {
-  width: 90%;
-  height: 120px;
-  background: rgba(255,255,255,0.35);
-  filter: drop-shadow(0 0 10px rgba(255,255,255,0.5));
-  clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100%);
+  width: 80%;
+  height: 0px;
   position: absolute;
   top: 95%;
-  left: 5%;
+  left: 10%;
+  box-shadow: 0px 80px 60px 50px #FFFFFF40;
+}
+
+.cont{
+  width: 100%;
+  height: 191%;
+  position: absolute;
+  top: 240%;
+  left: 0;
+  background-color: #11005D;
+  z-index: 1;
+  box-shadow: 0px -8px 60px 50px #11005D;
+}
+
+.c2{
+  position: absolute;
+  top: -13%;
+  left: 50%;
+  transform: translate(-50%);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 146px;
+  line-height: 128%;
+  color: #F5F5F8;
+}
+
+.c3{
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 148%;
+  letter-spacing: 0%;
+  align-content: center;
+  color: #F5F5F8;
+}
+
+.c4{
+  width: 30%;
+  box-shadow: 0px 80px 100px 30px #3306AC;
+  left: 35%;
+  position: relative;
+  z-index: -1;
+  top: 19%;
+}
+
+.c5{
+  position: absolute;
+  top: 37%;
+  left: 70%;
+  transform: translate(-50%);
+  font-family: 'inter', monospace;
+  font-weight: 400;
+  font-size: 16px;
+  width: 45%;
+  line-height: 167%;
+  color: #F5F5F8;
+  width: 35%;
+}
+
+.c6{
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%);
+  font-family: 'inter', monospace;
+  font-weight: 400;
+  font-size: 16px;
+  width: 45%;
+  line-height: 167%;
+  color: #F5F5F8;
+  width: 30%;
+}
+
+.d1{
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E7E7E7;
+  height: 10%;
+  width: 30%;
+  position: absolute;
+  background-color: #544F604D;
+/*   opacity: 0.3; */
+color: #F5F5F8;;
+padding: 15px;
+top: 72%;
+left: 15%;
+}
+
+.c7{
+  font-family: 'inter', monospace;
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 14px;
+  position: relative;
+  left: 2%;
+}
+
+.c8{
+  font-family: 'inter', monospace;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 164%;
+  position: relative;
+  left: 2%;
 }
