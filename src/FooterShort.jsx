@@ -5,7 +5,6 @@ import MaivenLogo from './assets/maiven.png';
 function FooterShort() {
     return (
         <footer className={styles.containerFooterShort}>
-            <div className={styles.footerContent}>
                 <div className={styles.lumiareLogo}>
                     <img src={LumiareLogo} alt="Lumiare" />
                 </div>
@@ -23,7 +22,6 @@ function FooterShort() {
                 <div className={styles.copyright}>
                     © 2024 Lumiare.ai. All rights reserved.
                 </div>
-            </div>
         </footer>
     );
 }

@@ -67,8 +67,8 @@ function Waitlist2() {
             <p className={styles.c7}>Drastically Reduce Time from Initial Discovery to the final SoW</p>
             <p className={styles.c8}>Cut the time from initial discovery to a finalized Statement of Work from weeks to days. That means more hours left for value added work for you and your client, reducing time to a project kick-off.</p>
            </div>
-           <div className={styles.d2}></div>
-           <div className={styles.d3}></div>
+           <div className={styles.d2}><p className={styles.c9}>Eliminate Missed Requirements</p></div>
+           <div className={styles.d3}><p className={styles.c9}>Deliver with Confidence</p></div>
         </div>
         </div>
     );

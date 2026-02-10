@@ -996,3 +996,47 @@ left: 15%;
   position: relative;
   left: 2%;
 }
+
+.d1, .d2, .d3:hover{
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.d2{
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #F5F5F852;
+  height: 5%;
+  width: 30%;
+  position: absolute;
+  top: 86%;
+  left: 15%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.d3{
+    border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #F5F5F852;
+  height: 5%;
+  width: 30%;
+  position: absolute;
+    top: 92%;
+  left: 15%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.c9{
+  font-family: 'inter', monospace;
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 14px;
+  position: relative;
+  left: 2%;
+  color: #F5F5F8;
+  top: 15%;
+}
