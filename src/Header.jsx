@@ -1,23 +1,24 @@
 import lumiarelogo from './assets/lumiare.svg'
 import IA from './assets/IA.svg'
+import styles from './index.module.css'
+import { Link } from "react-router-dom";
 
-function Header(){
+function Header() {
+    return (
+        <header className={styles.containerHeader}>
+            <div className={styles.lumiareLogoHeader}>
+                <img src={lumiarelogo} alt="Lumiare logo" className={styles.lumiareHeader} />
+                <img src={IA} alt="IA" className={styles.iaHeader} />
+            </div>
 
-    return(
-        <header className='container-header'>
-                <div className='lumiare-logo-header'>
-                    <img src={lumiarelogo} alt="Lumiare logo" className="lumiare-header" />
-                    <img src={IA} alt="IA" className="ia-header" />
-                </div>
-                <div className='info-header'>
-                    <p>Solutions</p>
-                    <p>Pricing</p>
-                    <p>About us</p>
-                    <p className='signin'>Sign in</p>
-                </div>
+            <div className={styles.infoHeader}>
+                <Link to="/solutions" className={styles.sol}>Solutions</Link>
+                <Link to="/pricing" className={styles.pri}>Pricing</Link>
+                <Link to="/about" className={styles.abo}>About us</Link>
+                <Link to="/homepage" className={styles.signin}>Sign in</Link>
+            </div>
         </header>
-    );
-
+    )
 }
 
-export default Header;
+export default Header

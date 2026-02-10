@@ -2,16 +2,15 @@ import { useLayoutEffect } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import Waitlist from './Waitlist';
-import Login from './Login';
+import Waitlist2 from './Waitlist2';
 import styles from './index.module.css'
-import FooterShort from './FooterShort';
 
-function HomePage() {
+function LandingPage() {
     useLayoutEffect(() => {
         window.scrollTo(0, 0);
         
-        document.body.style.overflowY = "hidden";
-        document.body.style.height = "100vh";
+        document.body.style.overflowY = "auto";
+        document.body.style.height = "auto";
         document.body.classList.remove('solutions-page-active');
         document.body.classList.add('home-page-active');
 
@@ -22,12 +21,13 @@ function HomePage() {
 
     return (
         <>
+        <div className={styles.homeScrollContainer}>
             <Header />
-            <Waitlist />
-            <Login />
-            <FooterShort />
+            <Waitlist2 />
+            <Footer />
+        </div>
         </>
     );
 }
 
-export default HomePage;
+export default LandingPage;

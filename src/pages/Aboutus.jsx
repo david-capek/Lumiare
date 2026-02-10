@@ -1,4 +1,5 @@
 import Footer from "../Footer";
+import styles from '../index.module.css'
 
 export default function Aboutus() {
   return (
